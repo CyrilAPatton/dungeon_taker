@@ -3,7 +3,7 @@ import pygame
 import character
 import enemy
 import roomLib
-import test2
+import test3
 
 # Initialize pygame
 pygame.init()
@@ -31,5 +31,5 @@ running = True
 
 while running:
     if state == "INTRO":
-        state = test2.main()
+        state = test3.main()
         print(state)
